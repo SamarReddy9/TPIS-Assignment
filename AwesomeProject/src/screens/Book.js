@@ -20,7 +20,7 @@ const BookATable = ({navigation}) => {
             navigation.navigate('Detail');
           }}>
           <ArrowLeft height={hp('18%')} width={wp('15%')} />
-        </TouchableOpacity>
+        </TouchableOpacity> 
         <Text style={Styles.detailHeaderTitle}>Book A Table</Text>
         <Alert height={hp('18%')} width={wp('15%')} />
       </View>
