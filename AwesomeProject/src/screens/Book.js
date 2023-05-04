@@ -7,7 +7,7 @@ import Alert from '../assets/svg/Alert.svg';
 import IncDec from '../assets/svg/IncDec.svg';
 
 import {
-  heightPercentageToDP as hp, 
+  heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 
@@ -20,7 +20,7 @@ const BookATable = ({navigation}) => {
             navigation.navigate('Detail');
           }}>
           <ArrowLeft height={hp('18%')} width={wp('15%')} />
-        </TouchableOpacity> 
+        </TouchableOpacity>
         <Text style={Styles.detailHeaderTitle}>Book A Table</Text>
         <Alert height={hp('18%')} width={wp('15%')} />
       </View>
