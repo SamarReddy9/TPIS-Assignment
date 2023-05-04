@@ -7,7 +7,7 @@ import Alert from '../assets/svg/Alert.svg';
 import IncDec from '../assets/svg/IncDec.svg';
 
 import {
-  heightPercentageToDP as hp,
+  heightPercentageToDP as hp, 
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 
